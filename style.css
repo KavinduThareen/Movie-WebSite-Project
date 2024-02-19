@@ -1,0 +1,102 @@
+body {
+    background: #000000;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    transition: 0.05s;
+
+}
+
+.logo {
+    width: 240px;
+    /* Set the desired width */
+    margin-left: 30px;
+    /* Adjust the margin to move the logo slightly to the right */
+    margin-right: auto;
+    /* Push the logo to the left */
+}
+
+
+
+.content {
+    padding: 20px 20%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 33px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #e42d4c;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    margin-left: 55px;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: #caec09;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    padding: 15px 2.44rem;
+    background: #e42d4c;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #f09898;
+    color: #000000;
+}
