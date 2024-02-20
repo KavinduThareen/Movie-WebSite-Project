@@ -1,3 +1,4 @@
+/*
 body {
    
     background-image: url('Assen/Frame\ 6.png');
@@ -5,11 +6,48 @@ body {
     background-position: center;
  
 }
+*/
+
+body {
+    background: #000000;
+    color: #ffffff;
+
+}
+
+#body-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('Assen/Frame 6.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.body-text {
+    margin-top: 12%;
+    font-size: 50px;
+    margin-left: 5%;
+    /* Adjust this value to move the text towards the center */
+}
+
+.body-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.body-text h1 span {
+    color: #f30639;
+}
+
+
 
 header {
     position: fixed;
     background: #000000;
     width: 100%;
+    height: 70px;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -22,15 +60,13 @@ header {
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
     /* Set the desired width */
     margin-left: 30px;
     /* Adjust the margin to move the logo slightly to the right */
     margin-right: auto;
     /* Push the logo to the left */
 }
-
-
 
 .content {
     padding: 20px 20%;
@@ -72,21 +108,6 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text {
-    margin-left: 75px;
-    margin-top: 22%;
-    font-size: 50px;
-}
-
-.header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
-}
-
-.header-text h1 span {
-    color: #f30639;
-}
-
 .btn {
     position: absolute;
     top: 50%;
@@ -106,7 +127,132 @@ nav ul li a:hover::after {
 }
 
 
-.background{
+.background {
     background: center;
 }
 
+
+
+/*-----movies------------*/
+
+
+#Movies {
+    padding: 90px 0;
+}
+
+
+.sub-titel {
+    font-size: 50px;
+    margin-left: -25%;
+    /* Use negative margin to move the text towards the left */
+}
+
+
+
+.movie {
+    margin-right: 40px; /* Add margin to the right of each movie */
+}
+
+
+
+.Movie-list {
+    display: flex;
+}
+
+.movie img,
+h3,
+p {
+    width: auto;
+    height: auto;
+    margin-left: -65%;
+ 
+}
+
+.movie:last-child {
+    margin-right: 0; /* Remove margin from the last movie */
+}
+
+.movie:hover img {
+    transform: scale(1.1);
+}
+
+.movie:hover .layed {
+    height: 100%;
+}
+
+
+
+
+
+
+/*
+
+.Movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+    grid-gap: 50px;
+    margin-top: 40px 90px;
+  
+    margin-left: -22%; 
+}
+
+.movie {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layed {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #fbff00);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layed h3 {
+    border-radius: 10px;
+    display: block;
+}
+
+.layed a {
+
+    margin-top: 20px;
+    color: #caec09;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.movie:hover img {
+    transform: scale(1.1);
+}
+
+.movie:hover .layed {
+    height: 100%;
+}
+
+*/
