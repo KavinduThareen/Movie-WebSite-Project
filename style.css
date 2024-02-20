@@ -1,22 +1,12 @@
-/*
-body {
-   
-    background-image: url('Assen/Frame\ 6.png');
-    background-size: cover;
-    background-position: center;
- 
-}
-*/
-
-
 body {
     background: #000000;
     color: #ffffff;
     width: 100%;
-    /* Set the width to 100% */
+
     overflow-x: hidden;
-    /* Hide horizontal overflow to prevent scrolling */
+
 }
+
 
 
 html {
@@ -35,7 +25,7 @@ html {
 
 }
 
-.content {
+.content-header {
     padding: 10px 10%;
 }
 
@@ -83,7 +73,7 @@ header {
     /* Push the logo to the left */
 }
 
-.content {
+.content-header{
     padding: 20px 20%;
 }
 
@@ -146,6 +136,12 @@ nav ul li a:hover::after {
     background: center;
 }
 
+.content {
+    border-bottom: 1px solid #ee1d5c;
+    /* Adjust the color and thickness of the line */
+}
+
+
 
 
 /*-----movies------------*/
@@ -154,6 +150,11 @@ nav ul li a:hover::after {
 #Movies {
     padding: 70px 0;
 }
+
+.content{
+    padding: 20px 20%;
+}
+
 
 
 .sub-titel {
@@ -239,7 +240,6 @@ p {
 /*-------------TvSireas-----------------*/
 
 
-
 #TvSireas {
     padding: 70px 0;
 }
@@ -294,6 +294,10 @@ p {
 /*---------contac-------*/
 
 
+.content-contac {
+    padding: 20px 20%;
+}
+
 .contac-right {
     flex-basis: 60%;
 }
@@ -330,11 +334,13 @@ contac-left p i {
     color: #000;
     display: inline-block;
     background: #f33a68;
-    transition: background 0.3s ease; /* Add transition for background color */
+    transition: background 0.3s ease;
+    /* Add transition for background color */
 }
 
 .btn3.btn4:hover {
-    background: #a30340; /* Change background color on hover */
+    background: #a30340;
+    /* Change background color on hover */
 }
 
 
