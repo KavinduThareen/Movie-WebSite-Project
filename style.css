@@ -8,11 +8,17 @@ body {
 }
 */
 
+
 body {
     background: #000000;
     color: #ffffff;
-
+    margin: 0; 
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 #body-img {
     display: flex;
@@ -24,6 +30,11 @@ body {
     background-position: center;
 
 }
+
+.content {
+    padding: 10px 10%;
+}
+
 
 .body-text {
     margin-top: 12%;
@@ -137,7 +148,7 @@ nav ul li a:hover::after {
 
 
 #Movies {
-    padding: 90px 0;
+    padding: 70px 0;
 }
 
 
@@ -179,6 +190,24 @@ p {
 .movie:hover .layed {
     height: 100%;
 }
+
+.btn2 {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ee2450;
+    padding: 14px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.05s;
+}
+
+.btn2:hover {
+    background: #e60651;
+    color: #000;
+}
+
 
 
 
