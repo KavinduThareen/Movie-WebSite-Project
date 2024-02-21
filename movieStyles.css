@@ -146,9 +146,9 @@ nav ul li a:hover::after {
 
     width: 400%;
     height: 1000px;
-    background-color: #000000;
+    background-color: #161616;
 
-    border-radius: 10px;
+    border-radius: 20px;
 
     overflow: hidden;
 
@@ -240,12 +240,25 @@ nav ul li a:hover::after {
     height: 200px;
     margin-top: 880px;
     margin-left: 366px;
-    border: 1px solid rgb(0, 0, 0);
 }
 
-.table td {
+.table td,
+th {
     width: 80px;
     height: 100px;
-    background-color: rgb(20, 20, 20);
-    border: 1px solid rgb(41, 40, 40);
+    text-align: center;
+    background: #141414;
+
+}
+
+.download-btn {
+    background-color: #ff0000;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+}
+
+.download-btn:hover {
+    background-color: #f70944;
+    transform: scale(1.1);
 }
