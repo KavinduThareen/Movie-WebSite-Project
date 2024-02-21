@@ -25,6 +25,54 @@ html {
 
 }
 
+/*
+#body-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#body-img .body-text {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#body-img video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#body-img .content {
+    position: relative;
+    z-index: 1;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content-header {
     padding: 10px 10%;
 }
@@ -73,7 +121,7 @@ header {
     /* Push the logo to the left */
 }
 
-.content-header{
+.content-header {
     padding: 20px 20%;
 }
 
@@ -151,7 +199,7 @@ nav ul li a:hover::after {
     padding: 70px 0;
 }
 
-.content{
+.content {
     padding: 20px 20%;
 }
 
@@ -366,4 +414,17 @@ form .btn4 {
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+
+.footer {
+    background: #353435;
+    color: #ffffff;
+    /* Text color */
+    padding: 1px;
+    /* Add padding for better spacing */
+    font-size: 20px;
+    text-align: center;
+    /* Align text to the center */
+    /* Add any additional styles you want here */
 }
