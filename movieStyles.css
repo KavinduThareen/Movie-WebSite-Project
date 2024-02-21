@@ -124,13 +124,13 @@ nav ul li a:hover::after {
 
 
 .box {
-    margin-top: 110%;
-    margin-left: 45%;
-    width: 800px;
+    margin-top: 220%;
+    margin-left: 60%;
+    width: 500%;
     height: 500px;
     background-color: #2c2b2b;
     /* Set the background color */
-    border: 2px solid #000000;
+
     /* Add a border */
     border-radius: 10px;
     /* Add rounded corners */
@@ -140,10 +140,8 @@ nav ul li a:hover::after {
 
 .box img {
 
-    width: 310px;
+    width: 300px;
     height: 500px;
-    object-fit: cover;
-    /* Maintain aspect ratio and cover the container */
     border-radius: 10px;
-    /* Apply border radius to the image */
+
 }
