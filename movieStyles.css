@@ -111,31 +111,19 @@ nav ul li a:hover::after {
     /* Adjust the color and thickness of the line */
 }
 
+
+
+
 /*
-.movie1 img {
-    margin-top: 220%;
-    border-radius: 10px;
-    width: 310px;
-    height: 500px;
-    margin-left: 50%;
-}
-*/
-
-
-
 .box {
     margin-top: 220%;
     margin-left: 60%;
     width: 500%;
     height: 500px;
     background-color: #2c2b2b;
-    /* Set the background color */
-
-    /* Add a border */
     border-radius: 10px;
-    /* Add rounded corners */
     overflow: hidden;
-    /* Hide overflowing content */
+
 }
 
 .box img {
@@ -143,5 +131,47 @@ nav ul li a:hover::after {
     width: 300px;
     height: 500px;
     border-radius: 10px;
+     float: left;
+
+}
+
+*/
+
+
+
+.box {
+    position: relative;
+    margin-top: 220%;
+    margin-left: 60%;
+
+    width: 500%;
+    height: 500px;
+    background-color: #2c2b2b;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+.box img {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    float: left;
+
+}
+
+.box h3 {
+    position: absolute;
+
+    top: 20px;
+
+    right: 300px;
+
+    padding: 10px;
+
+    color: #ffffff;
+    border-radius: 5px;
 
 }
