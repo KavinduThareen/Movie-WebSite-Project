@@ -164,12 +164,12 @@ nav ul li a:hover::after {
 }
 
 
-.box h2 {
+.box h1 {
     position: absolute;
 
     top: 20px;
 
-    right: 600px;
+    right: 555px;
 
     padding: 20px;
 
@@ -256,6 +256,7 @@ th {
     margin-left: 20px;
     width: 150px;
     height: 50px;
+    font-weight: bold;
 }
 
 .download-btn:hover {
