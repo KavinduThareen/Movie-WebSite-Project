@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/*
 #body-img {
     display: flex;
     align-items: center;
@@ -24,16 +24,33 @@ html {
     background-position: center;
 
 }
+*/
 
+@keyframes changeImage {
 
+    0%,
+    100% {
+        background-image: url('Assen/wallpaperflare.com_wallpaper.jpg');
+    }
 
+    33.33% {
+        background-image: url('Assen/wallpaperflare.com_wallpaper\ \(4\).jpg');
+    }
 
+    66.66% {
+        background-image: url('Assen/wallpaperflare.com_wallpaper\ \(3\).jpg');
+    }
+}
 
-
-
-
-
-
+#body-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation: changeImage 10s infinite;
+}
 
 
 
