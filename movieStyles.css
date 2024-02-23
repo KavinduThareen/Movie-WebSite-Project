@@ -223,7 +223,6 @@ th {
     height: 100px;
     text-align: center;
     background: #141414;
-
 }
 
 .download-btn {
@@ -260,8 +259,7 @@ th {
     margin-left: 0px;
 }
 
-.table-1 td,
-th {
+.table-1 td {
     width: 12px;
     height: 50px;
     text-align: center;

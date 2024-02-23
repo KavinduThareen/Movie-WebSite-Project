@@ -97,10 +97,34 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+
 .btn {
     position: absolute;
     top: 50%;
     right: 100px;
+    transform: translateY(-50%);
+    padding: 20px 1.34rem;
+    background: #250c10;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    background: #ec1111;
+    color: #000000;
+}
+
+.background {
+    background: center;
+}
+
+.Next-btn {
+    position: absolute;
+    top: 340%;
+    right: 900px;
     transform: translateY(-50%);
     padding: 15px 2.44rem;
     background: #f00b31;
@@ -110,14 +134,9 @@ nav ul li a:hover::after {
     text-decoration: none;
 }
 
-.btn:hover {
+.Next-btn:hover {
     background: #f74c4c;
     color: #000000;
-}
-
-
-.background {
-    background: center;
 }
 
 
@@ -214,4 +233,22 @@ p {
 .btn2:hover {
     background: #ff0055;
     color: #000000;
+}
+
+.footer {
+    background: #353435;
+    color: #ffffff;
+
+    padding: 1px;
+    margin-top: 250px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.content-header nav i.fa-solid {
+    position: absolute;
+    top: 10%;
+    right: 6px;
+    font-size: 200%;
 }
