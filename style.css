@@ -313,38 +313,34 @@ p {
 
 
 .content-contac {
-    padding: 20px 20%;
+
+    margin-left: 350px;
+    margin-right: 300px;
+
 }
 
 .contac-right {
     flex-basis: 60%;
+
 }
 
-contac-left p {
-    margin-top: 30px;
-}
 
-contac-left p i {
-    color: #caec09;
-    margin-right: 15px;
-    font-size: 25px;
-}
 
 .Social-icon {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .Social-icon a {
     text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
+    font-size: 20px;
+    margin-right: 50px;
+    color: #ffffff;
     display: inline-block;
     transition: transform 0.5s;
 }
 
 .Social-icon a:hover {
-    color: #3902ff;
+    color: #e61b3c;
     transform: translateY(-5px);
 }
 
