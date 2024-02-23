@@ -29,6 +29,19 @@ html {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content-header {
     padding: 10px 10%;
 }
@@ -235,7 +248,7 @@ p {
 }
 
 .btn2:hover {
-    
+
     background: #ff0055;
     color: #000000;
 }

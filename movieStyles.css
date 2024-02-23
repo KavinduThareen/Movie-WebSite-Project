@@ -36,6 +36,7 @@ header {
 
 }
 
+
 .logo {
     width: 150px;
     /* Set the desired width */
@@ -49,59 +50,27 @@ header {
     padding: 20px 20%;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 50px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
-    position: relative;
-}
-
-nav ul li a::after {
-    content: '';
-    width: 0%;
-    height: 5px;
-    background: #e92b4b;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-}
 
 .btn {
     position: absolute;
     top: 50%;
     right: 100px;
     transform: translateY(-50%);
-    padding: 15px 2.44rem;
-    background: #f00b31;
+    padding: 20px 1.34rem;
+    background: #250c10;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 30px;
     text-decoration: none;
 }
 
+
 .btn:hover {
-    background: #f74c4c;
+    background: #ec1111;
     color: #000000;
 }
+
 
 
 .background {
@@ -113,7 +82,12 @@ nav ul li a:hover::after {
     /* Adjust the color and thickness of the line */
 }
 
-
+.content-header nav i.fa-solid {
+    position: absolute;
+    top: 10%;
+    right: 6px;
+    font-size: 200%;
+}
 
 
 /*
@@ -158,7 +132,6 @@ nav ul li a:hover::after {
 
 .box img {
     margin-top: 0px;
-    /* Adjust the value to increase or decrease the spacing */
     width: 300px;
     height: 500px;
     border-radius: 10px;
@@ -201,8 +174,8 @@ nav ul li a:hover::after {
     position: absolute;
     width: 150px;
     height: 50px;
-    top: 920px;
-    margin-left: 100px;
+    top: 1060px;
+    margin-left: 410px;
     padding: 10px 20px;
     background-color: #ff0000;
     color: rgb(0, 0, 0);
@@ -222,8 +195,8 @@ nav ul li a:hover::after {
     position: absolute;
     width: 150px;
     height: 50px;
-    top: 920px;
-    margin-left: 300px;
+    top: 1060px;
+    margin-left: 610px;
     padding: 10px 20px;
     background-color: #ff0000;
     border: none;
@@ -277,4 +250,21 @@ th {
     text-align: center;
     /* Align text to the center */
     /* Add any additional styles you want here */
+}
+
+
+.table-1 {
+    width: 299px;
+    height: 60px;
+    margin-top: 510px;
+    margin-left: 0px;
+}
+
+.table-1 td,
+th {
+    width: 12px;
+    height: 50px;
+    text-align: center;
+    background: #464444;
+    border-radius: 50px;
 }
