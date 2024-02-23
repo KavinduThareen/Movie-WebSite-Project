@@ -54,21 +54,16 @@ html {
 
 
 
-
-
-
-
-
 .content-header {
     padding: 10px 10%;
 }
 
-
+/*
 .body-text {
     margin-top: 12%;
     font-size: 50px;
     margin-left: 5%;
-    /* Adjust this value to move the text towards the center */
+    
 }
 
 .body-text h1 {
@@ -79,6 +74,40 @@ html {
 .body-text h1 span {
     color: #f30639;
 }
+*/
+
+@keyframes neon-glow {
+    0% {
+        text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #f30639, 0 0 40px #f30639, 0 0 50px #f30639, 0 0 60px #f30639, 0 0 70px #f30639;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #f30639, 0 0 50px #f30639, 0 0 60px #f30639, 0 0 70px #f30639, 0 0 80px #f30639;
+    }
+
+    100% {
+        text-shadow: 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #f30639, 0 0 60px #f30639, 0 0 70px #f30639, 0 0 80px #f30639, 0 0 90px #f30639;
+    }
+}
+
+
+
+.body-text h1 {
+    font-family: 'Arial', sans-serif;
+    margin-top: 25%;
+    font-size: 60px;
+    margin-left: 10%;
+
+    position: relative;
+    color: #ffffff;
+    animation: neon-glow 1s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
 
 
 
